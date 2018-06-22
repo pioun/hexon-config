@@ -3,3 +3,10 @@ management:
     web:
       exposure:
         include: '*'
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URI:http://localhost:10101/eureka}
+  instance:
+    preferIpAddress: true
