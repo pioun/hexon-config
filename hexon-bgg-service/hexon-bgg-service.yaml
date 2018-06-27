@@ -1,0 +1,6 @@
+server:
+  port: 9020
+
+management:
+  server:
+    port: 9021
