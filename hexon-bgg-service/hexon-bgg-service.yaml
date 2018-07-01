@@ -4,3 +4,16 @@ server:
 management:
   server:
     port: 9021
+
+bgg:
+  api:
+    url:
+     scheme: https
+     host: www.boardgamegeek.com
+     path: xmlapi2
+    search:
+      path: /search
+      params:
+        query: query
+        type: type
+        exact: exact
