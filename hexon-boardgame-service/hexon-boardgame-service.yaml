@@ -1,0 +1,6 @@
+server:
+  port: 9030
+
+management:
+  server:
+    port: 9031
